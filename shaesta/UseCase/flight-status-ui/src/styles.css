@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.form input {
+  padding: 8px;
+  flex: 1;
+}
+.form button {
+  padding: 8px 12px;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+}
+.status {
+  color: #fff;
+  padding: 6px 8px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.error {
+  color: #b00020;
+}
